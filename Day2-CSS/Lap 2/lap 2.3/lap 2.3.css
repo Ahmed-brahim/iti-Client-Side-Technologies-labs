@@ -1,0 +1,37 @@
+table, tr, td{
+border: 3px double gray;
+}
+#text{
+    text-orientation: upright;
+    writing-mode: vertical-lr
+}
+*{
+    text-align: center;
+}
+.tr-black{
+    background-color: black;
+}
+.tr-red{
+    background-color: red;
+}
+.tr-Green{
+    background-color:greenyellow;
+}
+.tr-blue{
+    background-color: blue;
+}
+.tr-yellow{
+    background-color: yellow;
+}
+.tr-magenta{
+    background-color: magenta;
+}
+.tr-cyan{
+    background-color: cyan;
+}
+.tr-mycolor{
+    background-color: #d0b000;
+}
+.white-text{
+    color: white;
+}

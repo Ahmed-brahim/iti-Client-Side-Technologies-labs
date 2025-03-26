@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset = "utf-8">
+		<title>lap 7</title>
+	</head>
+	<body>
+		<h1>A simple C program:</h1>
+		<pre>
+#include&ltstdio.h&gt
+#include&ltconio.h&gt
+int exp(int base, int power)
+{
+	if(power == 0)
+	{	return 1;	}
+	else
+	{	power--;
+		return base*esp(base,power);
+	}
+}
+main()
+{
+	int x = 2, y = 3 ;
+	clrscr();
+	printf("\n %d ^ %d = %d",x,y,exp(x,y));
+	getch(); return 0;
+}
+		</pre>
+	</body>
+</html>

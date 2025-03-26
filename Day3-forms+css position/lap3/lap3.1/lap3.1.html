@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./lap3.1.css" rel="stylesheet">
+    <title>
+        <lap3 class="1"></lap3>
+    </title>
+</head>
+
+<body>
+    <div class="container"> <!--black-->
+        <div class="internal-div container"> <!--red-->
+            <div class="facebook-div text-white inline-block">
+                <h4 class="inline-block">Login to Facbook</h4>
+            </div>
+            <div class="twitter-div text-white inline-block">
+                <h4 class="inline-block">Login to Twitter</h4>
+            </div>
+
+            <h2>OR</h2>
+            <div class="form-div inline-block">
+                <form action="https://httpbin.org/post" method="post">
+                    <input class="input-box" type="text" placeholder="UserName" name="username" required>
+                    <br>
+                    <input class="input-box" type="password" placeholder="password" name="password" required>
+                    <br>
+                    <div class="checkbox-container">
+                        <input class="checkBox" type="checkbox" id="Keep">
+                        <label class="inline" for="Keep">Keep me signed in</label>
+                        <a class="anchor text-gray">forget password?</a>
+                    </div>
+                    <br>
+            <button class="text-white" type="submit">Login</button>
+            <br>
+                </form>
+            </div>
+            <!-- <br>
+            <br>
+            <button class="text-white" type="submit">Login</button>
+            <br> -->
+            <p class="inline text-gray">Not Member?</p>
+            <a class="text-blue">Sign up now!</a>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+.div1{
+    background-color: rosybrown;
+    width: 70%;
+    padding: 50px;
+    
+}
+.div2{
+    background-color: white;
+    border: 3px solid black;
+    width: 100%;
+    padding: 20px;
+}
+.div21{
+    background-color: rosybrown;
+    border: 3px solid black;
+    width: 100%;
+    margin: 10px;
+}
+.div22{
+    background-color:rosybrown ;
+    margin: 10px;
+    width: 100%;
+}
+img{
+    width: 35px;
+}
+a{
+    padding: 10px;
+    font-size: small;
+    color: rgb(137, 14, 14);
+    text-decoration: underline;
+}
+h2{
+    display: inline;
+}

@@ -1,0 +1,27 @@
+
+table{
+    border: 2px solid black;
+    text-align: center;
+    border-collapse: collapse;
+    width: 70%;
+    margin: auto;
+}
+th{
+    border-right: none;
+    padding: 10px;
+    background-color: rgb(113, 113, 234);
+    color: white;
+    font-size:small;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+td{
+    border: 2px solid black;
+    padding: 10px;
+}
+.text-gray{
+    color: gray;
+    text-decoration: underline;
+}
+.cell-blue{
+    background-color: rgb(198, 219, 254);
+}
